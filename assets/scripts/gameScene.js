@@ -96,7 +96,7 @@ class GameScene extends Phaser.Scene {
     shootBullet() {
         const bullet = this.bullets.create(this.player.x, this.player.y - 50, 'bullet');
         bullet.setVelocityY(-500);
-        bullet.setScale(0.5);
+        bullet.setScale(0.05);
     }
 
     spawnEnemy() {
